@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 700" fill="none">
+<defs>
+ <radialGradient id="halo"><stop stop-color="#a29bff" stop-opacity=".24"/><stop offset="1" stop-color="#a29bff" stop-opacity="0"/></radialGradient>
+ <linearGradient id="stone" x1="180" y1="140" x2="490" y2="510" gradientUnits="userSpaceOnUse"><stop stop-color="#fffdf0"/><stop offset=".4" stop-color="#deded8"/><stop offset=".74" stop-color="#9b9fab"/><stop offset="1" stop-color="#555b70"/></linearGradient>
+ <linearGradient id="face" x1="280" y1="180" x2="470" y2="390" gradientUnits="userSpaceOnUse"><stop stop-color="#fffdf0"/><stop offset=".44" stop-color="#d5d6d1"/><stop offset="1" stop-color="#777e92"/></linearGradient>
+ <linearGradient id="robe" x1="220" y1="440" x2="460" y2="620" gradientUnits="userSpaceOnUse"><stop stop-color="#e9e9df"/><stop offset=".4" stop-color="#babdbe"/><stop offset="1" stop-color="#626a80"/></linearGradient>
+ <linearGradient id="rim" x1="540" y1="220" x2="470" y2="580" gradientUnits="userSpaceOnUse"><stop stop-color="#d1ff5f"/><stop offset="1" stop-color="#a29bff"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="8"/></filter>
+ <filter id="shadow" x="-.5" y="-.5" width="2" height="2"><feGaussianBlur stdDeviation="18"/></filter>
+</defs>
+<ellipse cx="355" cy="365" rx="310" ry="330" fill="url(#halo)"/>
+<circle cx="355" cy="305" r="235" stroke="#a29bff" stroke-opacity=".16"/>
+<path d="M120 408A239 239 0 0 1 426 79" stroke="#d1ff5f" stroke-width="2" stroke-linecap="round"/>
+<path d="m422 73 12 7-12 7" stroke="#d1ff5f" stroke-width="2"/>
+<ellipse cx="358" cy="644" rx="185" ry="24" fill="#05060b" filter="url(#shadow)"/>
+<!-- Draped shoulders and plinth -->
+<path d="m297 405-20 29-87 30c-32 13-52 49-60 93l-9 52c142 44 291 44 442-1l-14-58c-10-39-28-70-62-84l-80-34-19-30Z" fill="url(#robe)"/>
+<path d="m306 403-17 56 57 58 51-70-14-45" fill="url(#stone)"/>
+<path d="m191 465 85-27 8 28-68 99-68 31c10-78 20-111 43-131Z" fill="#ecece2"/>
+<path d="m279 437 57 84-54 82-57 26-35-17 50-118Z" fill="#b3b6bc"/>
+<path d="m398 436-28 60 28 50 74 84 79-24-26-80-55-50Z" fill="#858c9d"/>
+<path d="m413 447 44 125 53 43-41-120" fill="#d4d6d0"/>
+<path d="m191 475-32 103m89-102-39 116m72-118-28 80m60-44-39 73m92-114 49 95m35-59 34 76" stroke="#575f76" stroke-opacity=".35" stroke-width="5" stroke-linecap="round"/>
+<path d="m202 477-29 80m87-86-31 80m186-64 43 98" stroke="#fffdf0" stroke-opacity=".5" stroke-width="3" stroke-linecap="round"/>
+<!-- Neck -->
+<path d="M290 337v85l-6 25 52 52 60-58-13-80Z" fill="url(#stone)"/>
+<path d="m365 356 18 57-32 59 45-31-7-83Z" fill="#6d7589"/>
+<!-- Main cranium -->
+<path d="M246 218c-8-74 28-119 99-125 73-7 127 24 138 91l-4 49-13 37-9 69-29 57-67 29-67-32-36-56-15-74Z" fill="url(#stone)"/>
+<!-- Side silhouette -->
+<path d="M428 167c30 17 37 43 31 80l18 24-24 13-6 57-32 55-55 22 38-49 13-88-9-70Z" fill="#7d8597"/>
+<!-- Ear -->
+<path d="M263 256c-29-17-39 4-27 34l14 25 17-9 8-24Z" fill="#a7adb7"/>
+<path d="M253 267c-16-7-13 16-4 21l7 11" stroke="#646d81" stroke-width="6" stroke-linecap="round"/>
+<!-- Face plane -->
+<path d="M273 196c22-19 92-34 133-8l23 35-8 61-25 63-41 31-55-26-30-54-5-53Z" fill="url(#face)"/>
+<path d="m273 251 21 23-4 35 28 20-18 23-30-54Z" fill="#b9bdbf"/>
+<!-- Cheek and nose facets -->
+<path d="m349 241-13 48 19 11 28-10-21-13-4-35Z" fill="#f2f1e5"/>
+<path d="m358 242 3 36 21 12-26 11 5 10 31-14-13-24-5-34Z" fill="#80899b"/>
+<path d="m300 282 27 22-17 24-22-18Z" fill="#e3e4d9"/>
+<path d="m385 276 21-9-11 55-27-4Z" fill="#a0a7b1"/>
+<!-- Brow and closed marble eyes -->
+<path d="M282 237c17-10 37-9 50-2m34-3c13-8 28-9 39-3" stroke="#6b7386" stroke-width="7" stroke-linecap="round"/>
+<path d="m285 249 18-3 17 5m52-5 13-3 13 3" stroke="#757d8c" stroke-width="3" stroke-linecap="round"/>
+<path d="M299 247v5m85-8v5" stroke="#d3d7d6" stroke-width="4"/>
+<path d="m288 230 34 2m46-6 30-2" stroke="#fffdf0" stroke-opacity=".7" stroke-width="3" stroke-linecap="round"/>
+<!-- Sculpted moustache and beard, segmented planes -->
+<path d="M282 304c16 1 26 6 34 14l26-10 15 2 15-7 28 8 12-11-6 39-9 32-22 36-32 16-43-24-25-38Z" fill="url(#stone)"/>
+<path d="m314 317 28-8 17 2 11-7 30 10-23 11-24-4-19 9-25-3Z" fill="#a5acb3"/>
+<path d="m325 334 26-1 25-5-16 14-19 3Z" fill="#5a6377"/>
+<path d="m288 323 11 28-7 11 19 6-2 20 21 8 11 20m57-99-12 34 5 9-23 18 3 15-18 18" stroke="#7e8798" stroke-width="5" stroke-linecap="round"/>
+<path d="m303 333 10 18-3 10 16 11-3 14m20-29 1 48m30-65-11 20 4 11-13 14" stroke="#f1f1e4" stroke-opacity=".6" stroke-width="4" stroke-linecap="round"/>
+<!-- Hair mass -->
+<path d="M250 252c-32-23-36-72-15-99 3-38 38-58 63-61 24-30 76-26 98-9 39-8 76 21 77 47 29 17 32 60 8 90l-28 29-4-54-18-17-30-3-33-15-30 12-36-4-32 25-6 60Z" fill="url(#stone)"/>
+<path d="M246 213c-18-27-5-48 14-53m-11 39c1-26 31-37 44-28m-15-49c10-20 37-20 51-9m-50 31c14-24 52-25 66-6m-14-44c23-12 49-3 56 13m-42 25c15-11 37-5 41 10m10-38c28-7 50 10 49 30m-41 11c19-7 39 8 37 24m12-20c20 8 18 34 7 44m-212 13c-9 13-4 25 5 29" stroke="#767f91" stroke-width="9" stroke-linecap="round"/>
+<path d="M251 174c9-14 19-19 32-17m19-46c13-8 27-7 39 0m16-16c13-4 28 0 36 8m15 22c14-1 23 5 29 16m21 15c12 12 8 29 1 38" stroke="#fffdf0" stroke-opacity=".7" stroke-width="5" stroke-linecap="round"/>
+<!-- Fine carved cracks -->
+<path d="m381 178-9 20 5 10-9 13m-60 156 8-9-3-11m-77 163 8 13-3 16" stroke="#6d7787" stroke-opacity=".45" stroke-width="1.5"/>
+<!-- Side edge light -->
+<path d="M469 163c22 31 13 55-1 78m-11 68-7 29-26 51m62 80c39 18 54 56 63 93" stroke="url(#rim)" stroke-width="3" stroke-linecap="round"/>
+<path d="M469 163c22 31 13 55-1 78m-11 68-7 29-26 51m62 80c39 18 54 56 63 93" stroke="url(#rim)" stroke-width="9" stroke-opacity=".22" filter="url(#glow)"/>
+<path d="M216 620h272v25H216z" fill="#b9bdbd"/><path d="M216 620h272v8H216z" fill="#e5e6dc"/>
+<path d="m181 651 321-2" stroke="#a29bff" stroke-opacity=".25"/>
+</svg>

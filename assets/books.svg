@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 700" fill="none">
+<defs>
+ <radialGradient id="a"><stop stop-color="#a29bff" stop-opacity=".24"/><stop offset="1" stop-color="#a29bff" stop-opacity="0"/></radialGradient>
+ <linearGradient id="page" x1="170" y1="380" x2="540" y2="480" gradientUnits="userSpaceOnUse"><stop stop-color="#f4f2e8"/><stop offset=".55" stop-color="#c5c7d0"/><stop offset="1" stop-color="#7e8497"/></linearGradient>
+ <linearGradient id="violet" x1="180" y1="230" x2="550" y2="360" gradientUnits="userSpaceOnUse"><stop stop-color="#c6c0ff"/><stop offset=".45" stop-color="#9689f5"/><stop offset="1" stop-color="#5c51bd"/></linearGradient>
+ <linearGradient id="lime" x1="180" y1="420" x2="550" y2="540" gradientUnits="userSpaceOnUse"><stop stop-color="#d1ff5f"/><stop offset="1" stop-color="#759c22"/></linearGradient>
+ <linearGradient id="dark" x1="200" y1="130" x2="500" y2="310" gradientUnits="userSpaceOnUse"><stop stop-color="#40485f"/><stop offset="1" stop-color="#191e30"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="5"/></filter>
+ <filter id="shadow"><feGaussianBlur stdDeviation="15"/></filter>
+</defs>
+<ellipse cx="350" cy="365" rx="300" ry="300" fill="url(#a)"/>
+<ellipse cx="342" cy="600" rx="200" ry="30" fill="#010308" opacity=".6" filter="url(#shadow)"/>
+<!-- The orbit conveys circulation and reuse -->
+<path d="M103 423C-1 246 153 95 344 106c227 13 340 219 238 368" stroke="#a29bff" stroke-opacity=".17" stroke-width="2"/>
+<path d="M103 423C-1 246 153 95 344 106" stroke="#a29bff" stroke-width="3" stroke-linecap="round"/>
+<path d="m332 96 17 10-17 10" stroke="#a29bff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<!-- Bottom volume -->
+<path d="m131 447 270-68 167 104-276 83Z" fill="url(#lime)"/>
+<path d="m131 447 161 119v55L131 504Z" fill="#607c26"/>
+<path d="m292 566 276-83v54l-276 84Z" fill="url(#page)"/>
+<path d="m131 447 161 112 276-82v11l-276 83-161-114Z" fill="#d1ff5f"/>
+<path d="m292 611 276-84v12l-276 84-161-115v-11Z" fill="#88b333"/>
+<path d="m308 577 238-72m-238 83 238-72m-238 83 238-72" stroke="#747e8a" stroke-opacity=".4" stroke-width="1.2"/>
+<path d="m150 473 123 87" stroke="#d1ff5f" stroke-opacity=".28" stroke-width="3"/>
+<!-- Middle volume -->
+<path d="m159 346 276-56 148 104-283 69Z" fill="url(#violet)"/>
+<path d="m159 346 141 117v55L159 399Z" fill="#5e52a8"/>
+<path d="m300 463 283-69v49l-283 76Z" fill="url(#page)"/>
+<path d="m159 346 141 109 283-67v11l-283 69-141-113Z" fill="#c2baff"/>
+<path d="m300 509 283-76v13l-283 76-141-116v-11Z" fill="#8c7fe2"/>
+<path d="m315 473 249-62m-249 73 249-63m-249 74 249-64" stroke="#7e8799" stroke-opacity=".45" stroke-width="1.1"/>
+<path d="m177 369 104 82" stroke="#dcd7ff" stroke-opacity=".3" stroke-width="3"/>
+<!-- Upper volume -->
+<path d="m112 247 281-70 173 110-287 85Z" fill="url(#dark)"/>
+<path d="m112 247 167 125v61L112 304Z" fill="#1b2237"/>
+<path d="m279 372 287-85v56l-287 90Z" fill="url(#page)"/>
+<path d="m112 247 167 116 287-82v12l-287 85-167-122Z" fill="#68718b"/>
+<path d="m279 421 287-88v13l-287 90-167-126v-12Z" fill="#303950"/>
+<path d="m296 383 250-76m-250 89 250-78m-250 91 250-79" stroke="#818b9b" stroke-opacity=".45" stroke-width="1.1"/>
+<!-- Minimal embossed cover details -->
+<path d="m237 246 141-35 70 45-143 37Z" stroke="#a29bff" stroke-opacity=".48" stroke-width="1.5"/>
+<path d="m252 250 121-30m-100 45 121-31m-99 46 77-20" stroke="#a29bff" stroke-opacity=".32" stroke-width="2"/>
+<path d="m132 271 126 95" stroke="#a29bff" stroke-opacity=".22" stroke-width="3"/>
+<!-- Ribbon -->
+<path d="m444 328 20-6v74l-10-9-10 16Z" fill="#d1ff5f"/>
+<path d="m444 328 20-6-65-42-19 6Z" fill="#b7e64d"/>
+<!-- Orbit returning in foreground -->
+<path d="M582 474C509 611 305 652 168 558" stroke="#d1ff5f" stroke-width="3" stroke-linecap="round"/>
+<path d="M582 474C509 611 305 652 168 558" stroke="#d1ff5f" stroke-opacity=".35" stroke-width="12" filter="url(#glow)"/>
+<path d="m170 575-7-20 21 3" stroke="#d1ff5f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<!-- Floating idea sparks -->
+<path d="M539 142v28m-14-14h28m-23-9 18 18m0-18-18 18" stroke="#d1ff5f" stroke-width="2" stroke-linecap="round"/>
+<path d="M164 139v18m-9-9h18" stroke="#a29bff" stroke-width="2" stroke-linecap="round"/>
+<circle cx="581" cy="235" r="4" fill="#a29bff"/><circle cx="118" cy="389" r="3" fill="#d1ff5f"/>
+</svg>

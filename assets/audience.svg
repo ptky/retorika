@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" fill="none">
+<defs>
+ <radialGradient id="ambient"><stop stop-color="#a29bff" stop-opacity=".35"/><stop offset="1" stop-color="#080b14" stop-opacity="0"/></radialGradient>
+ <linearGradient id="beam" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#e5e0ff" stop-opacity=".2"/><stop offset="1" stop-color="#a29bff" stop-opacity="0"/></linearGradient>
+ <linearGradient id="beamLime" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#d1ff5f" stop-opacity=".16"/><stop offset="1" stop-color="#d1ff5f" stop-opacity="0"/></linearGradient>
+ <linearGradient id="floor"><stop stop-color="#d1ff5f" stop-opacity="0"/><stop offset=".5" stop-color="#d1ff5f" stop-opacity=".9"/><stop offset="1" stop-color="#d1ff5f" stop-opacity="0"/></linearGradient>
+ <linearGradient id="podium" x1="420" y1="270" x2="535" y2="430" gradientUnits="userSpaceOnUse"><stop stop-color="#4c4a6d"/><stop offset="1" stop-color="#171b31"/></linearGradient>
+ <filter id="blur"><feGaussianBlur stdDeviation="15"/></filter>
+ <filter id="glow"><feGaussianBlur stdDeviation="3"/></filter>
+ <g id="seated"><ellipse cx="0" cy="0" rx="20" ry="23"/><path d="M-35 66v-24c0-20 15-30 35-30s35 10 35 30v24Z"/></g>
+</defs>
+<ellipse cx="507" cy="260" rx="440" ry="280" fill="url(#ambient)"/>
+<path d="M195 0 650 445H280L183 0Z" fill="url(#beam)"/>
+<path d="M802 0 620 441H355L789 0Z" fill="url(#beamLime)"/>
+<path d="M500 0 667 435H362L486 0Z" fill="url(#beam)"/>
+<!-- Stage framing -->
+<path d="M170 112V73h660v39M170 73v294m660-294v294" stroke="#a29bff" stroke-opacity=".16"/>
+<path d="M291 108h414v241H291z" fill="#101526" fill-opacity=".72" stroke="#a29bff" stroke-opacity=".2"/>
+<path d="M324 144h345" stroke="#a29bff" stroke-opacity=".12"/>
+<!-- Abstract speech waves -->
+<path d="M578 201c20 14 20 48 0 62m19-78c34 24 34 68 0 93m20-108c49 32 49 87 0 122" stroke="#d1ff5f" stroke-width="3" stroke-linecap="round" opacity=".65"/>
+<path d="M439 201c-20 14-20 48 0 62m-19-78c-34 24-34 68 0 93m-20-108c-49 32-49 87 0 122" stroke="#a29bff" stroke-width="3" stroke-linecap="round" opacity=".4"/>
+<!-- Speaker -->
+<path d="M479 216c-12 9-15 20-12 37l10 25 34-1 12-23-1-27-15-19Z" fill="#e6e7e1"/>
+<path d="M467 228c-2-16 5-29 22-31 18-3 32 8 34 26l-15-5-17 5-9 16Z" fill="#7c7c94"/>
+<path d="M478 270v22l-31 16-19 74h132l-23-74-26-17v-20" fill="#232c45"/>
+<path d="M473 297l22 24 21-25" stroke="#d1ff5f" stroke-width="2"/>
+<path d="m535 314 32-30 27 7" stroke="#e6e7e1" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="m443 322-22 36 29 17" stroke="#757d9b" stroke-width="13" stroke-linecap="round"/>
+<!-- Podium -->
+<path d="m433 338 108-9 17 17-111 12Z" fill="#777596"/>
+<path d="m447 358 111-12-10 76-90 9Z" fill="url(#podium)"/>
+<path d="m433 338 14 20 11 73-17-17Z" fill="#202539"/>
+<path d="m471 350 62-6" stroke="#d1ff5f" stroke-width="3"/>
+<path d="m513 330-4-31 12-12" stroke="#e6e7e1" stroke-width="3" stroke-linecap="round"/>
+<circle cx="523" cy="285" r="5" fill="#d1ff5f"/>
+<!-- Stage light line -->
+<path d="M68 438h862" stroke="url(#floor)" stroke-width="3"/>
+<path d="M100 438h792" stroke="url(#floor)" stroke-width="12" opacity=".4" filter="url(#glow)"/>
+<ellipse cx="500" cy="459" rx="180" ry="12" fill="#a29bff" opacity=".12" filter="url(#blur)"/>
+<!-- Audience, layered rows -->
+<g fill="#33374e"><use href="#seated" x="111" y="429" transform="translate(18 47) scale(.8)"/><use href="#seated" x="220" y="429" transform="translate(18 47) scale(.8)"/><use href="#seated" x="329" y="429" transform="translate(18 47) scale(.8)"/><use href="#seated" x="438" y="429" transform="translate(18 47) scale(.8)"/><use href="#seated" x="547" y="429" transform="translate(18 47) scale(.8)"/><use href="#seated" x="656" y="429" transform="translate(18 47) scale(.8)"/><use href="#seated" x="765" y="429" transform="translate(18 47) scale(.8)"/><use href="#seated" x="874" y="429" transform="translate(18 47) scale(.8)"/><use href="#seated" x="983" y="429" transform="translate(18 47) scale(.8)"/></g>
+<g fill="#181e30" stroke="#a29bff" stroke-opacity=".12"><use href="#seated" x="58" y="473"/><use href="#seated" x="168" y="473"/><use href="#seated" x="278" y="473"/><use href="#seated" x="388" y="473"/><use href="#seated" x="498" y="473"/><use href="#seated" x="608" y="473"/><use href="#seated" x="718" y="473"/><use href="#seated" x="828" y="473"/><use href="#seated" x="938" y="473"/></g>
+<g fill="#090e1b"><use href="#seated" x="105" y="546" transform="translate(-10 -60) scale(1.1)"/><use href="#seated" x="220" y="546" transform="translate(-10 -60) scale(1.1)"/><use href="#seated" x="335" y="546" transform="translate(-10 -60) scale(1.1)"/><use href="#seated" x="450" y="546" transform="translate(-10 -60) scale(1.1)"/><use href="#seated" x="565" y="546" transform="translate(-10 -60) scale(1.1)"/><use href="#seated" x="680" y="546" transform="translate(-10 -60) scale(1.1)"/><use href="#seated" x="795" y="546" transform="translate(-10 -60) scale(1.1)"/></g>
+<path d="M71 555c5-20 17-27 34-27m92 27c5-20 17-27 34-27m219 27c5-20 17-27 34-27m219 27c5-20 17-27 34-27" stroke="#d1ff5f" stroke-opacity=".13" stroke-width="2"/>
+</svg>
