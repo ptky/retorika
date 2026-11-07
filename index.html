@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#080b13">
+  <meta name="description" content="Retorika — 17 diás, animált prezentáció a meggyőzésről.">
+  <title>Retorika</title>
+  <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css?v=dark17">
+  <script src="./slides.js?v=dark17" defer></script>
+  <script src="./script.js?v=dark17" defer></script>
+</head>
+<body>
+  <header class="masthead">
+    <a class="brand" href="#/1" aria-label="Retorika, első dia">RETORIKA</a>
+
+  </header>
+  <main id="stage" tabindex="-1" aria-label="Diavetítés"></main>
+  <footer class="bottom-bar">
+    <div class="utility controls">
+      <button id="overview-btn" class="icon-button" aria-label="Diaáttekintő megnyitása" title="Diaáttekintő (O)"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg></button>
+      <button id="notes-btn" class="icon-button" aria-label="Előadói jegyzetek megnyitása" title="Előadói jegyzetek (N)"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3h14v18H5zM8 8h8M8 12h8M8 16h5"/></svg></button>
+      <button id="fullscreen-btn" class="icon-button" aria-label="Diavetítés indítása" title="Diavetítés indítása (F)"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 3H3v5m13-5h5v5M3 16v5h5m13-5v5h-5"/></svg></button>
+      <button id="help-btn" class="icon-button help-button" aria-label="Billentyűparancsok" title="Billentyűparancsok (?)">?</button>
+    </div>
+    <div class="counter"><span id="current-number">01</span><span class="counter-slash">/</span><span id="total-number">17</span></div>
+    <div class="navigation controls">
+      <button id="prev-btn" class="nav-button previous" aria-label="Előző dia"><span aria-hidden="true">←</span><span class="nav-label">Előző</span></button>
+      <button id="next-btn" class="nav-button next" aria-label="Következő dia"><span class="nav-label">Következő</span><span aria-hidden="true">→</span></button>
+    </div>
+  </footer>
+  <div id="progress" class="progress" role="progressbar" aria-label="Előadás előrehaladása" aria-valuemin="1" aria-valuemax="17" aria-valuenow="1"><div id="progress-fill"></div></div>
+  <div class="sr-only" role="status" id="announcement" aria-live="polite" aria-atomic="true"></div>
+  <div id="toast" role="status" class="toast" hidden></div>
+  <dialog id="overview-dialog" class="overview-dialog" aria-labelledby="overview-title">
+    <div class="dialog-heading"><div><p class="eyebrow">RETORIKA</p><h2 id="overview-title">Diák</h2></div><button class="close-button" data-close aria-label="Diaáttekintő bezárása">×</button></div>
+    <div id="overview-grid" class="overview-grid"></div>
+  </dialog>
+  <dialog id="notes-dialog" class="notes-dialog" aria-labelledby="notes-title">
+    <div class="dialog-heading"><div><p id="notes-meta" class="eyebrow"></p><h2 id="notes-title">Előadói jegyzetek</h2></div><button class="close-button" data-close aria-label="Jegyzetek bezárása">×</button></div>
+    <p class="visibility-notice">Ez a panel a vetített képernyőn is látható. Előadás előtt zárd be.</p>
+    <div id="notes-body" class="notes-body"></div>
+    <div class="notes-nav"><button id="notes-prev" class="text-button">← Előző jegyzet</button><button id="notes-next" class="text-button">Következő jegyzet →</button></div>
+  </dialog>
+  <dialog id="help-dialog" class="help-dialog" aria-labelledby="help-title">
+    <div class="dialog-heading"><h2 id="help-title">Vezérlés</h2><button class="close-button" data-close aria-label="Súgó bezárása">×</button></div>
+    <dl class="shortcuts"><div><dt>← / →</dt><dd>Előző / következő dia</dd></div><div><dt>Space</dt><dd>Következő dia</dd></div><div><dt>Home / End</dt><dd>Első / utolsó dia</dd></div><div><dt>F</dt><dd>Teljes képernyős diavetítés</dd></div><div><dt>P</dt><dd>Csak a dia az ablakban</dd></div><div><dt>O / N</dt><dd>Áttekintő / jegyzetek</dd></div><div><dt>Esc</dt><dd>Diavetítés vagy panel bezárása</dd></div></dl>
+    <label class="motion-setting"><input type="checkbox" id="motion-toggle"> Animációk kikapcsolása</label>
+    <p class="dialog-footnote">Diavetítéskor csak a dia látszik. Kattintással, nyilakkal vagy Space-szel léptethetsz. Érintőképernyőn húzz balra vagy jobbra. Kilépés: Esc.</p>
+  </dialog>
+  <noscript>A diavetítéshez engedélyezd a JavaScriptet a böngészőben.</noscript>
+</body>
+</html>
