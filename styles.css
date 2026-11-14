@@ -66,3 +66,9 @@ dialog{background:#101520;color:var(--ink);border:1px solid #ffffff24;padding:32
 @media(max-height:500px) and (orientation:landscape){.thanks{min-height:250px}.thanks h1{font-size:clamp(55px,8.5vw,80px)}.thanks-sculpture{width:35%}.thanks-finish{bottom:2%}}
 .thanks{overflow:clip}.thanks-sculpture{right:0}
 .opening,.audience-drawing{overflow:clip}
+
+
+/* The separate style-tools slide follows the corresponding Word section. */
+.style-tools h2{font-size:clamp(25px,2.7vw,51px)}
+.style-tools p{font-size:clamp(23px,2.15vw,40px)}
+@media(max-width:600px) and (orientation:portrait){.style-tools h2{font-size:27px}.style-tools p{font-size:22px}}

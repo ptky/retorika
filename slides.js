@@ -1,11 +1,11 @@
-// A diák tartalma és a Wordből származó előadói jegyzetek.
+// Diák és jegyzetek a csatolt előadói szöveg pontos sorrendjében.
 window.RETORIKA_SLIDES = [
   {
     "title": "Még öt percet maradhatok?",
     "chapter": "A kérdés, amit mindenki ismer",
     "type": "opener",
     "notes": [
-      "„Ki próbált már meggyőzni valakit arról, hogy még öt percig maradhasson?” [Rövid szünet, kézfeltartás.] Ilyenkor is retorikát használunk. Próbálunk jó indokot találni, a megfelelő hangnemben beszélni, és elérni, hogy a másik elfogadja a kérésünket. A retorika, más néven szónoklattan, a világos, rendezett és hatásos közlés elmélete és gyakorlata. Hagyományos célja a meggyőzés, vagyis a hallgató véleményének vagy cselekvésének befolyásolása."
+      "„Ki próbált már meggyőzni valakit arról, hogy még öt percig maradhasson?” [Rövid szünet, kézfeltartás.]"
     ],
     "ink": "opening",
     "id": 1,
@@ -18,7 +18,8 @@ window.RETORIKA_SLIDES = [
       "prompt": "Te mivel győznéd meg?",
       "subject": "Retorika",
       "unit": "perc"
-    }
+    },
+    "sourceSection": 1
   },
   {
     "title": "Mi a retorika?",
@@ -30,14 +31,15 @@ window.RETORIKA_SLIDES = [
       "Hatásos meggyőzés"
     ],
     "notes": [
-      "„Ki próbált már meggyőzni valakit arról, hogy még öt percig maradhasson?” [Rövid szünet, kézfeltartás.] Ilyenkor is retorikát használunk. Próbálunk jó indokot találni, a megfelelő hangnemben beszélni, és elérni, hogy a másik elfogadja a kérésünket. A retorika, más néven szónoklattan, a világos, rendezett és hatásos közlés elmélete és gyakorlata. Hagyományos célja a meggyőzés, vagyis a hallgató véleményének vagy cselekvésének befolyásolása.",
+      "Ilyenkor is retorikát használunk. Próbálunk jó indokot találni, a megfelelő hangnemben beszélni, és elérni, hogy a másik elfogadja a kérésünket. A retorika, más néven szónoklattan, a világos, rendezett és hatásos közlés elmélete és gyakorlata. Hagyományos célja a meggyőzés, vagyis a hallgató véleményének vagy cselekvésének befolyásolása.",
       "Retorikával nemcsak ünnepi beszédekben találkozunk. Jelen van egy iskolai feleletben, egy reklámban, egy állásinterjún vagy egy internetes vitában is. Írott szövegekben ugyanúgy számít az érvek sorrendje és a megfogalmazás. A jó beszéd tájékoztathat, taníthat és érzelmeket is kelthet, de közben fontos az igazmondás és a közönség tisztelete."
     ],
     "id": 2,
     "speaker": 1,
     "copy": {
       "word": "Szónoklattan."
-    }
+    },
+    "sourceSection": 1
   },
   {
     "title": "Ókori gyökerek",
@@ -65,7 +67,8 @@ window.RETORIKA_SLIDES = [
     "speaker": 1,
     "copy": {
       "note": "rétor = szónok"
-    }
+    },
+    "sourceSection": 2
   },
   {
     "title": "Kihez beszélünk?",
@@ -89,7 +92,8 @@ window.RETORIKA_SLIDES = [
         "Barátok",
         "Ünnepi közönség"
       ]
-    }
+    },
+    "sourceSection": 3
   },
   {
     "title": "Három beszédfajta",
@@ -117,7 +121,8 @@ window.RETORIKA_SLIDES = [
       "A törvényszéki beszéd többnyire múltbeli eseményeket vizsgál: mi történt, ki mit tett, és milyen felelőssége van. Ide tartozik a vádbeszéd és a védőbeszéd. Fontosak benne a tények, a bizonyítékok és az ellenérvek. Az alkalmi vagy bemutató beszéd egy eseményhez kötődik, például ünnepséghez, ballagáshoz vagy megemlékezéshez. Gyakori célja a méltatás és a közös értékek megerősítése. Egy konkrét beszédben több típus jellemzői is keveredhetnek."
     ],
     "id": 5,
-    "speaker": 1
+    "speaker": 1,
+    "sourceSection": 4
   },
   {
     "title": "Mi győz meg?",
@@ -143,7 +148,8 @@ window.RETORIKA_SLIDES = [
     ],
     "ink": "triangle",
     "id": 6,
-    "speaker": 1
+    "speaker": 1,
+    "sourceSection": 5
   },
   {
     "title": "Egy könyvgyűjtés példája",
@@ -167,7 +173,8 @@ window.RETORIKA_SLIDES = [
       "Képzeljünk el egy könyvgyűjtő akciót. Az étoszt erősíti, ha a szervező megbízható és átláthatóan dolgozik. A pátoszt az, ha bemutatjuk, kiknek segítenek a könyvek. A logoszt pedig annak elmagyarázása, hogyan jutnak el az adományok a megfelelő helyre. A három eszköz általában együtt működik. Az érzelmi hatás önmagában még nem megtévesztés: az számít, hogy valós helyzetet mutatunk-e be."
     ],
     "id": 7,
-    "speaker": 1
+    "speaker": 1,
+    "sourceSection": 5
   },
   {
     "title": "A beszéd öt munkafázisa",
@@ -186,7 +193,8 @@ window.RETORIKA_SLIDES = [
     ],
     "ink": "process",
     "id": 8,
-    "speaker": 1
+    "speaker": 1,
+    "sourceSection": 6
   },
   {
     "title": "A kész beszéd váza",
@@ -218,7 +226,8 @@ window.RETORIKA_SLIDES = [
         "≠",
         "Szerkezeti rész"
       ]
-    }
+    },
+    "sourceSection": 7
   },
   {
     "title": "Mitől jó egy érv?",
@@ -240,16 +249,17 @@ window.RETORIKA_SLIDES = [
         "Kevesebb új vásárlás",
         "Kisebb kiadás"
       ]
-    }
+    },
+    "sourceSection": 8
   },
   {
     "title": "Mivel támasztjuk alá?",
     "chapter": "A jó érv mögött van valami",
     "type": "evidence",
     "items": [
-      "Tény és adat",
-      "Példa és összehasonlítás",
       "Ok és következmény",
+      "Példa és összehasonlítás",
+      "Tény és adat",
       "Hozzáértő szakértő"
     ],
     "notes": [
@@ -259,7 +269,14 @@ window.RETORIKA_SLIDES = [
     "speaker": 2,
     "copy": {
       "question": "Megbízható a forrás?"
-    }
+    },
+    "icons": [
+      "cause",
+      "link",
+      "fact",
+      "person"
+    ],
+    "sourceSection": 8
   },
   {
     "title": "Két következtetési irány",
@@ -288,16 +305,17 @@ window.RETORIKA_SLIDES = [
         "≠",
         "Biztos szabály"
       ]
-    }
+    },
+    "sourceSection": 8
   },
   {
     "title": "Hol hibás az érv?",
     "chapter": "Egy pillanatra álljunk meg",
     "type": "fallacy",
     "items": [
-      "Hamis dilemma",
       "Személyeskedés",
       "Elhamarkodott általánosítás",
+      "Hamis dilemma",
       "Szalmabáb"
     ],
     "notes": [
@@ -314,7 +332,8 @@ window.RETORIKA_SLIDES = [
         "ellenem vagy."
       ],
       "question": "Tényleg csak két lehetőség van?"
-    }
+    },
+    "sourceSection": 9
   },
   {
     "title": "A figyelem eszközei",
@@ -337,34 +356,78 @@ window.RETORIKA_SLIDES = [
     "notes": [
       "A jó tartalom mellett az is számít, hogyan adjuk elő. A verbális eszközök a nyelvi megoldások: a szóválasztás, a mondatok felépítése és a példák. Élőszóban különösen fontos az érthetőség, hiszen a hallgató nem tud egyszerűen visszalapozni. Az ismeretlen fogalmakat érdemes megmagyarázni, a túl hosszú mondatokat pedig egyszerűsíteni.",
       "A hangzó megszólalást a hangerő, hangsúly, hanglejtés, tempó és szünet alakítja. Ezeket paraverbális eszközöknek is nevezhetjük. A túl gyors beszédet nehéz követni, az egyhangú előadás pedig könnyen elveszíti a közönség figyelmét. A fontos mondatok után tartott szünet segít a megértésben. [Rövid szünet.] Ahogy most is: egy pillanatnyi csend kiemelheti a következő gondolatot.",
-      "A nonverbális kommunikációhoz tartozik a mimika, a gesztus, a tekintet és a testtartás. A szemkontaktus kapcsolatot teremt, a természetes mozdulatok segíthetik a magyarázatot. Fontos, hogy a szavaink és a viselkedésünk összhangban legyenek. Ha lelkesedésről beszélünk, de végig a földet nézzük és alig hallhatóan mondjuk, gyengülhet az üzenetünk.",
-      "A stíluseszközök szemléletesebbé és emlékezetesebbé teszik a mondanivalót. A metafora hasonlóságon alapuló azonosítás: „A tudás kulcs a lehetőségekhez.” A hasonlat kifejtett összevetés: „A tudás olyan, mint egy kulcs.” A megszemélyesítés emberi tulajdonságot ad egy élettelen dolognak vagy elvont fogalomnak: „A lehetőség kopogtat.”",
-      "Az ismétlés nyomatékosít: „Kell a tudás. Kell a figyelem.” A fokozás egyre erősebb elemekkel növeli a hatást. A szónoki kérdés gondolkodásra késztet, rendszerint közvetlen választ sem vár. Ezek akkor működnek jól, ha támogatják a mondanivalót. Nem szükséges minden mondatba különleges fordulatot tenni."
+      "A nonverbális kommunikációhoz tartozik a mimika, a gesztus, a tekintet és a testtartás. A szemkontaktus kapcsolatot teremt, a természetes mozdulatok segíthetik a magyarázatot. Fontos, hogy a szavaink és a viselkedésünk összhangban legyenek. Ha lelkesedésről beszélünk, de végig a földet nézzük és alig hallhatóan mondjuk, gyengülhet az üzenetünk."
     ],
     "id": 14,
     "speaker": 2,
     "copy": {
-      "examples": [
-        [
-          "Metafora",
-          "„A tudás kulcs.”"
-        ],
-        [
-          "Ismétlés",
-          "„Kell a tudás. Kell a figyelem.”"
-        ]
+      "examples": []
+    },
+    "sourceSection": 10
+  },
+  {
+    "title": "Néhány emlékezetes stíluseszköz",
+    "chapter": "Szemléletes és emlékezetes közlés",
+    "type": "styletools",
+    "items": [
+      [
+        "Metafora",
+        "„A tudás kulcs.”"
+      ],
+      [
+        "Hasonlat",
+        "„A tudás olyan, mint egy kulcs.”"
+      ],
+      [
+        "Megszemélyesítés",
+        "„A lehetőség kopogtat.”"
       ]
-    }
+    ],
+    "copy": {
+      "note": "Ismétlés · Fokozás · Szónoki kérdés"
+    },
+    "notes": [
+      "A stíluseszközök szemléletesebbé és emlékezetesebbé teszik a mondanivalót. A metafora hasonlóságon alapuló azonosítás: „A tudás kulcs a lehetőségekhez.” A hasonlat kifejtett összevetés: „A tudás olyan, mint egy kulcs.” A megszemélyesítés emberi tulajdonságot ad egy élettelen dolognak vagy elvont fogalomnak: „A lehetőség kopogtat.”",
+      "Az ismétlés nyomatékosít: „Kell a tudás. Kell a figyelem.” A fokozás egyre erősebb elemekkel növeli a hatást. A szónoki kérdés gondolkodásra késztet, rendszerint közvetlen választ sem vár. Ezek akkor működnek jól, ha támogatják a mondanivalót. Nem szükséges minden mondatba különleges fordulatot tenni."
+    ],
+    "sourceSection": 11,
+    "id": 15
+  },
+  {
+    "title": "A kulturált vita",
+    "chapter": "Eltérő álláspontok ütköztetése",
+    "type": "debate",
+    "items": [
+      [
+        "Meghallgatás",
+        "Figyelem"
+      ],
+      [
+        "Érvekre válasz",
+        "Indoklás"
+      ],
+      [
+        "Belátás",
+        "Nyitottság"
+      ]
+    ],
+    "copy": {
+      "note": "Moderátor — rend és időkeret"
+    },
+    "notes": [
+      "A kulturált vitában eltérő álláspontokat ütköztetünk. Meghallgatjuk egymást, az érvekre válaszolunk, és elfogadjuk, ha egy ellenvetés jogos. A cél lehet közös megoldás vagy a kérdés pontosabb megértése. A moderátor pártatlanul vezeti a vitát, ügyel a megszólalási rendre és az időkeretre. Teljes egyetértés nélkül is lehet eredményes egy beszélgetés."
+    ],
+    "sourceSection": 12,
+    "id": 16
   },
   {
     "title": "Meggyőzés vagy manipuláció?",
     "chapter": "A hatás felelősséggel jár",
     "type": "ethics",
     "notes": [
-      "A kulturált vitában eltérő álláspontokat ütköztetünk. Meghallgatjuk egymást, az érvekre válaszolunk, és elfogadjuk, ha egy ellenvetés jogos. A cél lehet közös megoldás vagy a kérdés pontosabb megértése. A moderátor pártatlanul vezeti a vitát, ügyel a megszólalási rendre és az időkeretre. Teljes egyetértés nélkül is lehet eredményes egy beszélgetés.",
       "A tisztességes meggyőzésben a cél felismerhető, az indokok pedig megvizsgálhatók és vitathatók. A manipuláció például lényeges információk elhallgatásával vagy a helyzet torz bemutatásával nehezíti a tájékozott döntést. Építhet félelemre, a csoporthoz tartozás vágyára vagy megtévesztő sürgetésre. A „csak most” fordulat gyanús lehet, ha hamis határidővel nyomást gyakorol. Egy valódi határidő vagy egy érzelmes történet önmagában még nem manipuláció."
     ],
-    "id": 15,
+    "id": 17,
     "speaker": 2,
     "items": [
       [
@@ -381,18 +444,18 @@ window.RETORIKA_SLIDES = [
     ],
     "copy": {
       "note": "Az érzelem önmagában nem manipuláció."
-    }
+    },
+    "sourceSection": 12
   },
   {
     "title": "Legközelebb mivel győznek meg?",
     "chapter": "Vidd magaddal ezt a kérdést",
     "type": "closing",
     "notes": [
-      "A retorika abban segít, hogy világosan és hitelesen adjuk át a gondolatainkat, és tudatosabban értékeljük mások közléseit. Legközelebb, amikor valaki meg akar győzni titeket, figyeljétek meg: a hitelességére, az érzelmeitekre vagy az érveire épít? És azt is: valóban alátámasztja, amit állít?",
-      "Forrás: Retorika_roviditett_2x2_oldal.docx. A dokumentum megjelölt alapanyaga: Retorika_erettsegi_tetel című kidolgozott tétel."
+      "A retorika abban segít, hogy világosan és hitelesen adjuk át a gondolatainkat, és tudatosabban értékeljük mások közléseit. Legközelebb, amikor valaki meg akar győzni titeket, figyeljétek meg: a hitelességére, az érzelmeitekre vagy az érveire épít? És azt is: valóban alátámasztja, amit állít?"
     ],
     "ink": "closing",
-    "id": 16,
+    "id": 18,
     "speaker": 2,
     "lines": [
       "Legközelebb",
@@ -405,10 +468,11 @@ window.RETORIKA_SLIDES = [
         "Érvelés"
       ],
       "question": "Alátámasztja, amit állít?"
-    }
+    },
+    "sourceSection": 12
   },
   {
-    "id": 17,
+    "id": 19,
     "title": "Köszönjük a figyelmet!",
     "chapter": "",
     "type": "thanks",
@@ -418,6 +482,7 @@ window.RETORIKA_SLIDES = [
     ],
     "notes": [
       "Köszönjük a figyelmet!"
-    ]
+    ],
+    "sourceSection": null
   }
 ];
